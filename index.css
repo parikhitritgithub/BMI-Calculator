@@ -1,0 +1,58 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing :border-box;
+    font-family: cursive;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    color:rgb(255, 255, 255)
+}
+#main{
+    position: relative;
+    background-color: rgb(196, 141, 141);
+    height: 100vh;
+    width: 100vw;
+    display:flex ;
+    align-items: center ;
+}
+#main>h1{
+    position: absolute;
+    left: 40% ;
+    top:3rem ; 
+    letter-spacing: 0.4rem ;
+}
+#upper{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+#upper>button{
+    position: absolute;
+    margin-left: 3rem ;
+    margin-top: 4rem ;
+    height: 2rem;
+    font-weight: 4rem;
+    border-radius:20%; 
+    padding: 1rem , 1rem;
+
+}
+#result{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+#w-guide{
+    position: absolute;
+    margin-left: 3rem ;
+    margin-top: 8rem ;
+}
+#weight{
+    position: absolute;
+    left: 12.7rem ;
+}
+#weightl{
+    position: absolute;
+    top: 2.5rem ;
+}
